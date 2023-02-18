@@ -1,5 +1,4 @@
 /* GENERAL */
-
 :root {
     --estado-correcto: #1ed12d;
     --estado-incorrecto: #bb2929;
@@ -23,6 +22,12 @@ main {
     width: 90%;
     margin: auto;
     padding: 40px;
+}
+.activo {
+    display: block;
+}
+.inactivo {
+    display: none;
 }
 
 /* CONTENIDO */
@@ -69,13 +74,8 @@ main {
 }
 
 .input-error {
-    display: none;
     font-size: 1.2rem;
     margin-bottom: 0;
-}
-
-.input-error-activo {
-    display: block;
 }
 
 .checkbox {
@@ -89,16 +89,11 @@ main {
 }
 
 .grupo-mensaje {
-    display: none;
     min-height: 45px;
     padding: 0 15px;
     border-radius: 3px;
     background-color: #F66060;
     line-height: 45px;
-}
-
-.grupo-mensaje-activo {
-    display: block;
 }
 
 .grupo-mensaje p {
@@ -130,15 +125,10 @@ main {
 }
 
 .mensaje-exito {
-    display: none;
     font-size: 1.4rem;
     text-align: center;
     color: var(--estado-correcto);
     grid-column: 2;
-}
-
-.mensaje-exito-activo {
-    display: block;
 }
 
 /* ESTILOS DE VALIDACION */

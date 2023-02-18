@@ -21,7 +21,7 @@
                     <input type="text" class="input" name="usuario" id="usuario" placeholder="SoyRandy708">
                     <i class="fa-solid fa-circle-xmark validacion-estado"></i>
                 </div>
-                <p class="input-error">
+                <p class="input-error inactivo">
                     El usuario tiene que ser de 4 a 16 digitos y solo puede contener numeros, letras y guion bajo.
                 </p>
             </div>
@@ -33,7 +33,7 @@
                     <input type="text" class="input" name="nombre" id="nombre" placeholder="Randy Ochoa">
                     <i class="fa-solid fa-circle-xmark validacion-estado"></i>
                 </div>
-                <p class="input-error">
+                <p class="input-error inactivo">
                     El usuario tiene que ser de 4 a 16 digitos y solo puede contener numeros, letras y guion bajo.
                 </p>
             </div>
@@ -45,7 +45,7 @@
                     <input type="password" class="input" name="contraseña" id="contraseña">
                     <i class="fa-solid fa-circle-xmark validacion-estado"></i>
                 </div>
-                <p class="input-error">
+                <p class="input-error inactivo">
                     La contraseña tiene que ser de 4 a 12 digitos.
                 </p>
             </div>
@@ -57,7 +57,7 @@
                     <input type="password" class="input" name="contraseña2" id="contraseña2">
                     <i class="fa-solid fa-circle-xmark validacion-estado"></i>
                 </div>
-                <p class="input-error">
+                <p class="input-error inactivo">
                     Ambas contraseñas tienen que ser iguales.
                 </p>
             </div>
@@ -69,7 +69,7 @@
                     <input type="email" class="input" name="correo" id="correo" placeholder="correo@correo.com">
                     <i class="fa-solid fa-circle-xmark validacion-estado"></i>
                 </div>
-                <p class="input-error">
+                <p class="input-error inactivo">
                     El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.
                 </p>
             </div>
@@ -81,8 +81,8 @@
                     <input type="text" class="input" name="telefono" id="telefono" placeholder="891234567">
                     <i class="fa-solid fa-circle-xmark validacion-estado"></i>
                 </div>
-                <p class="input-error">
-                    El telefono solo puede contener numeros y el cmaximo son 14 digitos.
+                <p class="input-error inactivo">
+                    El telefono solo puede contener numeros y el maximo son 14 digitos.
                 </p>
             </div>
 
@@ -95,7 +95,7 @@
             </div>
 
             <!-- MENSAJE DE ERROR -->
-            <div class="grupo-mensaje" id="grupo-mensaje">
+            <div class="grupo-mensaje inactivo" id="grupo-mensaje">
                 <p>
                     <i class="fa-solid fa-triangle-exclamation"></i>
                     <b>Error:</b> Por favor rellena el formulario correctamente.   
@@ -106,11 +106,12 @@
             <div class="formulario-grupo grupo-enviar">
                 <button type="reset" class="formulario-btn">Resetear</button>
                 <button type="submit" class="formulario-btn">Enviar</button>
-                <p class="mensaje-exito" id="mensaje-exito">Formulario enviado exitosamente!</p>
+                <p class="mensaje-exito inactivo" id="mensaje-exito">Formulario enviado exitosamente!</p>
             </div>
         </form>
     </main>
 
+    <script src="./index.js"></script>
     <script src="https://kit.fontawesome.com/2b20d1c479.js" crossorigin="anonymous"></script>
 </body>
 </html>

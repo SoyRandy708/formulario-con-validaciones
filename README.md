@@ -6,3 +6,5 @@ Para el proyecto se utilizarion texnologias como HTML, CSS y JS.
 
 ## Despliegue
 https://soyrandy708.github.io/FormularioConValidaciones/
+
+![Previsualizacion del Proyecto](https://res.cloudinary.com/dwog1xmvw/image/upload/v1682026801/ProyectosPersonales/ValidacionFormularioJs/proyecto_hgf0p1.png)

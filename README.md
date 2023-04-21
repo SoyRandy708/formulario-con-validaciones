@@ -1,8 +1,8 @@
 # Formulario con Validaciones en JS
 ## Descripcion
-Este proyecto es un formulario sencillo donde se estan validando los datos con JS con expresiones regulares en su mayoria, para poder ver si el contenido de cada campo corresponde a lo que se pide, si no se rellenan adecuadamente los campos no se podra enviar el formulario y aparecera cual es el campo que esta incorrecto con una descripcion para ayudar al usuario contestar el formulario correctamente. 
+Este proyecto es un formulario sencillo en el que se están validando los datos con JavaScript, principalmente utilizando expresiones regulares, para comprobar si el contenido de cada campo corresponde a lo que se solicita. Si los campos no se rellenan adecuadamente, no se podrá enviar el formulario y aparecerá cuál es el campo que está incorrecto, con una descripción para ayudar al usuario a completar el formulario correctamente.
 
-Para el proyecto se utilizarion texnologias como HTML, CSS y JS. 
+Para el proyecto, se utilizaron tecnologías como HTML, CSS y JavaScript.
 
 ## Despliegue
 https://soyrandy708.github.io/FormularioConValidaciones/
